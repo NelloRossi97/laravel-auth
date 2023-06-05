@@ -45,7 +45,7 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        return view('admin.projects.show', compact('projects'));
+        return view('admin.projects.show', compact('project'));
     }
 
     /**
@@ -55,7 +55,7 @@ class ProjectController extends Controller
      */
     public function edit(Project $project)
     {
-        return view('admin.projects.edit', compact('projects'));
+        return view('admin.projects.edit', compact('project'));
     }
 
     /**
