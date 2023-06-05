@@ -1,5 +1,5 @@
 <?php
-return $projects = [
+return [
     [
         'title' => 'laravel-auth',
         'description' => 'A website that allow you to open the admin dashboard if you are logged in using Laravel',
